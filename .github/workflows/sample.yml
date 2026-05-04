@@ -1,0 +1,11 @@
+name: Sample Workflow
+
+on:
+  workflow_dispatch:
+  
+jobs:
+  print_inputs:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          echo "Hello World"
